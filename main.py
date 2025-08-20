@@ -3,6 +3,7 @@ import logging
 from typing import Dict, Set, Optional
 
 import telegram
+print("Telegram version:", telegram.__version__)
 from telegram import (
     Update,
     InlineKeyboardButton,
